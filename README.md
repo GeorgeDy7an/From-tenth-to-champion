@@ -2,11 +2,13 @@
 
 **From Tenth to Champion → Champion to Legend**
 
+**[HTML 展厅 / HTML Showcase](index.html)** · 下载仓库后打开 `index.html`，无需安装。 / Download the repository and open `index.html`; no installation required.
+
 个人篮球策略游戏项目。玩家组建阵容，在每节比赛中选择战术，并在征程中通过招募和训练调整球队。我的工作集中在把阵容选择、临场决策和长期成长连成一套可反复游玩的系统。
 
 A personal basketball strategy game about building a lineup, calling a tactic each quarter, and adapting your team across a run. My work focused on connecting roster building, in-game decisions, and long-term progression.
 
-<img src="screenshots/match.png" alt="单机场上的记分牌、阵容与球场 / Offline match with scoreboard, lineups, and court" width="320">
+<img src="screenshots/zh/match.png" alt="中文比赛界面" width="240"> <img src="screenshots/en/match.png" alt="English match interface" width="240">
 
 *离线版实机截图，使用虚构球员与原创几何图形。 / Offline game capture with fictional players and original geometric artwork.*
 
@@ -19,7 +21,11 @@ A personal basketball strategy game about building a lineup, calling a tactic ea
 | **存档可靠性 / Save reliability** | 遇到断网、重试或多次保存时，怎样保护最新进度？ / How do retries, disconnects, and rapid saves avoid losing progress? |
 | **离线与双语 / Offline and bilingual play** | 怎样剥离平台服务，并让中英文共用一份本地进度？ / How can the game drop platform services while sharing saves across languages? |
 
-[设计案例与开发过程 / Design cases and development process](docs/design-notes.md) · [离线首页截图 / Offline home screenshot](screenshots/home.png)
+[设计案例与开发过程 / Design cases and development process](docs/design-notes.md) · [中文图集](screenshots/zh/) · [English gallery](screenshots/en/)
+
+展厅收录 12 个实机场景的中英文截图，含抽队、整备、赛前对阵、战术选择、比赛、结算、每日挑战、生涯与招募。三个可操作展项分别展示单节战术、评分成长与存档冲突。
+
+The showcase pairs Chinese and English captures for 12 in-game scenes, from team selection and quarter tactics to match results, daily challenges, career, and recruitment. Three interactive exhibits cover tactics, rating growth, and save conflicts.
 
 ## 单节战术小样 / One-quarter tactics demo
 

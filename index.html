@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>从第十到冠军 · Portfolio</title>
+<link rel="stylesheet" href="exhibit/style.css">
+<header class="mast">
+  <a href="#top" class="brand">10 <span>→</span> 1</a>
+  <nav><a href="#lab" data-copy="lab">互动系统</a><a href="#gallery" data-copy="gallery">实机图集</a><a href="#process" data-copy="process">开发复盘</a></nav>
+  <div class="languages" role="group" aria-label="Language"><button id="zh" lang="zh-CN">中文</button><button id="en" lang="en">English</button></div>
+</header>
+<main id="top">
+  <section class="opening">
+    <div class="opening-inner">
+      <div class="intro">
+        <p class="kicker" data-copy="project">个人篮球策略游戏</p>
+        <h1 data-copy="title">从第十到冠军</h1>
+        <p class="lead" data-copy="lead">组建五人阵容，在每节选择战术，把一轮征程打成自己的夺冠路线。</p>
+        <a class="primary" href="#lab" data-copy="enter">体验互动系统</a>
+      </div>
+      <button class="feature-image" type="button" data-shot="match" aria-label="比赛截图"><img id="hero-image" src="screenshots/zh/match.png" alt=""></button>
+    </div>
+  </section>
+  <section class="section" id="lab">
+    <div class="section-head"><p class="kicker">01</p><h2 data-copy="lab">互动系统</h2><p data-copy="labNote">三个独立小样，使用虚构数据与简化规则。</p></div>
+    <div class="tabs" id="labs" aria-label="Interactive exhibits">
+      <button data-lab="tactic" data-copy="tactic">单节战术</button>
+      <button data-lab="growth" data-copy="growth">无尽成长</button>
+      <button data-lab="save" data-copy="save">存档冲突</button>
+    </div>
+    <div class="bench" id="station"></div>
+  </section>
+  <section class="section" id="gallery">
+    <div class="section-head"><p class="kicker">02</p><h2 data-copy="gallery">实机图集</h2><p id="gallery-count"></p></div>
+    <div class="tabs" id="filters" aria-label="Gallery filters"></div>
+    <div class="gallery" id="shots"></div>
+  </section>
+  <section class="section" id="process">
+    <div class="section-head"><p class="kicker">03</p><h2 data-copy="process">开发复盘</h2></div>
+    <div id="cases"></div>
+    <div class="links"><a href="docs/design-notes.md" data-copy="notes">完整设计笔记</a><a href="demo/index.html" data-copy="demo">独立单节小样</a><a href="examples/save-queue.js" data-copy="code">精选代码：保存队列</a></div>
+  </section>
+</main>
+<dialog id="viewer">
+  <div class="viewer-top"><strong id="shot-title"></strong><button id="close" type="button" aria-label="关闭 / Close">×</button></div>
+  <img id="shot-image" alt="">
+  <div class="viewer-nav"><button id="previous" type="button" aria-label="上一张 / Previous">←</button><span id="shot-number"></span><button id="next" type="button" aria-label="下一张 / Next">→</button></div>
+</dialog>
+<script src="demo/quarter.js"></script>
+<script src="exhibit/gallery.js"></script>
+</html>
